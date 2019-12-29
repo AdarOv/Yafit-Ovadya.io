@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'yafit-cv';
+  
+  onNotify(someFlag) {
+    window.alert(`You will be notified when the product goes on sale ${someFlag.up}`);
+  }
 }
