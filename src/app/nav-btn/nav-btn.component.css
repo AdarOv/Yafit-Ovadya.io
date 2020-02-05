@@ -1,0 +1,15 @@
+.btn-nav {
+  text-align: center;
+
+  letter-spacing: 0;
+  color: #e4e4e4;
+  text-transform: uppercase;
+  /* opacity: 0.5; */
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.btn-nav:hover {
+  background: rgba(0, 0, 0, 0.4);
+  color: #44cece;
+}

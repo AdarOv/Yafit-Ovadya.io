@@ -1,0 +1,46 @@
+@import url(//db.onlinewebfonts.com/c/290d648d85c5bd479c77af1ccdc9922e?family=Carbon+Block);
+@font-face {
+  font-family: "Carbon Block";
+  src: url("//db.onlinewebfonts.com/t/290d648d85c5bd479c77af1ccdc9922e.eot");
+  src: url("//db.onlinewebfonts.com/t/290d648d85c5bd479c77af1ccdc9922e.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/290d648d85c5bd479c77af1ccdc9922e.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/290d648d85c5bd479c77af1ccdc9922e.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/290d648d85c5bd479c77af1ccdc9922e.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/290d648d85c5bd479c77af1ccdc9922e.svg#Carbon Block")
+      format("svg");
+}
+
+/* assistant-300 - latin */
+@font-face {
+  font-family: "Assistant";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Assistant Light"), local("Assistant-Light"),
+    url("../../Fonts/assistant-v4-latin-300.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../../Fonts/assistant-v4-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* assistant-regular - latin */
+@font-face {
+  font-family: "Assistant";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Assistant"), local("Assistant-Regular"),
+    url("../../Fonts/assistant-v4-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../../Fonts/assistant-v4-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* assistant-800 - latin */
+@font-face {
+  font-family: "Assistant";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Assistant ExtraBold"), local("Assistant-ExtraBold"),
+    url("../../Fonts/assistant-v4-latin-800.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../../Fonts/assistant-v4-latin-800.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
