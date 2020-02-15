@@ -8,6 +8,11 @@ import { MainComponent } from './main/main.component';
 import { WorksComponent } from './works/works.component';
 import { NavBtnComponent } from './nav-btn/nav-btn.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { WorkComponent } from './work/work.component';
+import { SmallWorksComponent } from './small-works/small-works.component';
+import { ExpirienceComponent } from './expirience/expirience.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { WelcomeComponent } from './welcome/welcome.component';
     MainComponent,
     WorksComponent,
     NavBtnComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    WorkComponent,
+    SmallWorksComponent,
+    ExpirienceComponent,
+    SkillsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
